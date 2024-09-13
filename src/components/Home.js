@@ -1,8 +1,18 @@
 import React from "react";
 
+// Assume these variables are defined and imported correctly
+const name = "Your Name";
+const city = "Your City";
+
 function Home() {
-  // update the JSX being returned!
-  return <div>Home</div>;
+  return (
+    <div id="home">
+      <h1 style={{ color: "firebrick" }}>
+        {name} is a Web Developer from {city}
+      </h1>
+    </div>
+  );
 }
 
 export default Home;
+
