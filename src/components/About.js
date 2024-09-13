@@ -1,7 +1,5 @@
 import React from "react";
-
-// Assume this image is imported correctly
-import image from "./path/to/image.jpg";
+import image from "./my-image.jpg"; // Update this to the actual image file name and path
 
 function About() {
   return (
